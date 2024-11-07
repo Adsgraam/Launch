@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Launch Bots</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* General Page Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7fb;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        /* Launch Container Section */
+        .launch-container {
+            width: 90%;
+            max-width: 1200px;
+            margin-top: 40px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1px;
+        }
+
+        .bot-card {
+            background-color: #fff;
+            padding: 0;
+            margin: 1px 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            width: 250px;
+            transition: transform 0.3s;
+            text-align: center;
+            height: 380px;
+            margin-top: 10px;
+        }
+
+        .bot-card:hover {
+            transform: scale(1.05);
+        }
+
+        .bot-card img {
+            width: 100%;
+            height: 140px;
+            object-fit: cover;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+
+        .bot-card h3 {
+            font-size: 1.2em;
+            color: #0088cc;
+            margin: 1px 0;
+        }
+
+        .bot-card p {
+            font-size: 1em;
+            color: #555;
+            margin: 1px 0;
+        }
+
+        .launch-date {
+            font-size: 1.2em;
+            color: #0088cc;
+            margin: 1px 0;
+        }
+
+        .join-button {
+            background-color: #0088cc;
+            color: white;
+            font-size: 1em;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .join-button:hover {
+            background-color: #006699;
+        }
+
+        /* Footer Navigation */
+        .footer-nav {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            background-color: #0088cc;
+            padding: 10px 0;
+            box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .footer-nav a {
+            color: #fff;
+            font-size: 1em;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .footer-nav a:hover {
+            color: #b3e0f2;
+        }
+
+        .footer-nav i {
+            font-size: 1.3em;
+            margin-bottom: 5px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Launch Container Section -->
+    <div class="launch-container">
+        <!-- Bot Cards Section -->
+        <div class="bot-card">
+            <img src="https://via.placeholder.com/500x140" alt="Bot 1">
+            <h3>Bot Name 1</h3>
+            <p>A brief description of Bot 1 and its amazing features.</p>
+            <div class="launch-date">
+                Launching on: November 29, 2024
+            </div>
+            <a href="https://t.me/yourbot1" class="join-button">Join Now</a>
+        </div>
+        
+        <div class="bot-card">
+            <img src="https://via.placeholder.com/500x140" alt="Bot 2">
+            <h3>Bot Name 2</h3>
+            <p>Short description of Bot 2 and how it can help users.</p>
+            <div class="launch-date">
+                Launching on: November 29, 2024
+            </div>
+            <a href="https://t.me/yourbot2" class="join-button">Join Now</a>
+        </div>
+        
+        <div class="bot-card">
+            <img src="https://via.placeholder.com/500x140" alt="Bot 3">
+            <h3>Bot Name 3</h3>
+            <p>Details of Bot 3, including its unique features and benefits.</p>
+            <div class="launch-date">
+                Launching on: November 29, 2024
+            </div>
+            <a href="https://t.me/yourbot3" class="join-button">Join Now</a>
+        </div>
+
+    </div>
+
+    <!-- Footer Navigation -->
+    <div class="footer-nav">
+        <a href="index.html"><i class="fas fa-home"></i> Home</a>
+        <a href="launch.html"><i class="fas fa-rocket"></i> Launch</a>
+        <a href="news.html"><i class="fas fa-newspaper"></i> News</a>
+    </div>
+
+</body>
+</html>
